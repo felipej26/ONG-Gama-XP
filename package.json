@@ -1,11 +1,12 @@
 {
-  "name": "ONG-Gama-XP",
+  "name": "ong-gama-xp",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
+    "express": "^4.15.4",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.0.0",
     "grunt-contrib-coffee": "1.0.0",
@@ -19,9 +20,25 @@
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "0.5.2",
     "include-all": "^1.0.0",
+    "nodemailer": "^4.0.1",
     "rc": "1.0.1",
     "sails": "~0.12.13",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "sails-mysql": "^0.11.5"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3",
+    "magnific-popup": "^1.1.0",
+    "scrollreveal": "^3.1.4"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -30,8 +47,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/ONG-Gama-XP.git"
+    "url": "git://github.com/felipej26/ONG-Gama-XP.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "Jefferson Felipe",
   "license": ""
 }
