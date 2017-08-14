@@ -29,7 +29,7 @@
     })
 
     // Initialize and Configure Scroll Reveal Animation
-    window.sr = ScrollReveal();
+    /*window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
         duration: 600,
         scale: 0.3,
@@ -43,7 +43,7 @@
         duration: 600,
         scale: 0.3,
         distance: '0px'
-    }, 300);
+    }, 300); 
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
@@ -59,6 +59,6 @@
         image: {
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
         }
-    });
+    });*/
 
 })(jQuery); // End of use strict
